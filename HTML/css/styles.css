@@ -19,6 +19,11 @@ hr {
 }
 
 
+/* In style, border-style: none will return 0 height; Thus, you can't see anything on your website. 
+You need to specify height to be able to see the border. right now in current code, border-style is dotted none none (total 3 parts).
+this is the order of 'top | left and right | bottom', so we left top border only. 
 
-/* In style, border-style: none will return 0 height; Thus, you can't see anything. You need to specify height. 
-        In hr, width: 30% means no matter your browser size is, it is always 30% of width of the page.*/
+    In hr, width: 30% means no matter your browser size is, it is always 30% of width of the page.*/
+
+/* STYLE PRACTICE: 1) When you put property, put it in alphabetical order so that you can debug easily when there is a problem.
+                   2) One {property:value} pair per line */
