@@ -1,0 +1,24 @@
+body {
+    background-color: #E9F8F9;
+    color: black; /* text color inside body*/
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3{
+    color: #66BFBF;
+}
+
+hr {
+    border-style: dotted none none; 
+    border-color: rgb(206, 205, 205);
+    border-width: 10px;
+    width: 5%
+}
+
+
+
+/* In style, border-style: none will return 0 height; Thus, you can't see anything. You need to specify height. 
+        In hr, width: 30% means no matter your browser size is, it is always 30% of width of the page.*/
